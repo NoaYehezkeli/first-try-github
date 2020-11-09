@@ -1,4 +1,10 @@
 body {
-font-family: sans-serif;
-    color:blue; 
+font-family: 'Assistant', sans-serif;
+    color:black;
+        font-size: 25px;
+}
+h1 {
+   font-family: 'Bellefair', serif;
+    color:blue;
+    font-size: 48px;  
 }
