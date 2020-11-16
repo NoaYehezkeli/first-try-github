@@ -5,6 +5,12 @@ font-family: 'Assistant', sans-serif;
 }
 h1 {
    font-family: 'Bellefair', serif;
-    color:blue;
+    color:brown;
     font-size: 48px;  
+}
+
+.containter {
+    max-width: 800px;
+    margin: auto;
+    
 }
