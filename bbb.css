@@ -16,17 +16,38 @@ h1 {
 }
 
 .cta {
-    background-color: antiquewhite;
+    background-color: #efeae3;
     font-size: 21 px;
-    text-align: center;
+   /*text-align: center;*/
     padding: 20 px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .cta h3 {
   color: brown;  
 }
 
 .button {
-    background-color: cornflowerblue;
-    color: aliceblue;
+    background-color: #000000;
+    color: #ffebeb;
     text-decoration: none;
+    display: inline-block; 
+    padding: 10px 30px;
+    display:inline-block;
+    margin: 5px;
 }
+
+.alignleft {
+    float:left;
+    max-width: 50%;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    
+}
+
+.imgbook {
+    max-width: 150px;
+}
+
