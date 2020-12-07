@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+ <link rel="stylesheet" href="bbb.css"> 
+ <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Bellefair&display=swap" rel="stylesheet">
+  <title>אתר בסיסי</title>
+</head>
+
+<body>
+<div class="news">
+    <h2>הרשמו עכשיו לניוזלטר</h2>
+    <p>הרשמו לרשימת התפוצה שלנו וקבלו מידע על מבצעים ומתכונים חדשים מדי שבוע</p>
+    <form action="">
+      <label>
+        שם
+        <input type="text">
+      </label>
+      <label>
+        אימייל
+        <input type="email">
+      </label>
+      <input type="submit" value="שלח">
+    </form>
+  </div>
+
+</body>
+</html>

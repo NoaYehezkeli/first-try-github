@@ -6,10 +6,10 @@ font-family: 'Assistant', sans-serif;
 h1 {
    font-family: 'Bellefair', serif;
     color:brown;
-    font-size: 48px;  
+    font-size: 60px; 
 }
 
-.containter {
+.container {
     max-width: 800px;
     margin: auto;
     
@@ -51,3 +51,13 @@ h1 {
     max-width: 150px;
 }
 
+
+.news {
+  padding: 60px;
+  background: url(pictures/%D7%90a2.jpg)
+  background-position: center;
+}
+.news h2 {
+    color: #000000;
+    font-size: 50px; 
+}
