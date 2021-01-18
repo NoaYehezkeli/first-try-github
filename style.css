@@ -3,18 +3,26 @@ body {
   font-family: 'Assistant', sans-serif;
   line-height: 1.5;
 }
+h1 { font-family: 'Yusei Magic', sans-serif;
+    font font-weight: 400;
+}
 h1, h2, h3, h4 {
   font-family: 'Secular One', sans-serif;
     font font-weight: 400;
     }
 .about{
-    background:#ffdfee;
+    background:#e6e3e0;
     font-size: 23px;
     color: black; 
-
 }
+
+.about img {
+  display: block;
+  margin-top: 40px;
+}
+
 .container{
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
 }
 img{
@@ -54,5 +62,26 @@ h1{
     max-width: 150px;
     display: block;
     margin: 15px auto;
+    
+}
+
+.gallery {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    font-size: 21px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+        
+}
+.gallery img {
+  display: block;
+}
+
+
+link {
     
 }
