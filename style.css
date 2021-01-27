@@ -60,7 +60,7 @@ h2{font-size: 30px;
     cursor: pointer;
 }
 .button:hover {
-  background: #fff;
+  background: #0000;
   color: #ffff;
     cursor: pointer;
 }
@@ -107,6 +107,7 @@ a{
 }
 .footer {
   background-color: snow;
+    background-size: auto;
   text-align: center;
   padding: 40px 0;
 }
