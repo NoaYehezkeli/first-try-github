@@ -75,6 +75,25 @@ font-size: 33px;
     max-width: 1500px;
     margin: auto;
 }
+.header{
+text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0,0,0,0.5);
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+    display: block;
+}
 .banner {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
     url(photo/room%201.jpg);
