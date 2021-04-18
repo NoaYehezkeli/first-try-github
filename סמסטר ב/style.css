@@ -29,13 +29,13 @@ h1 {
 }
 
 footer {
-  background: #fff;
+  background: #acacac;
   color: #000;
   text-align: center;
   padding: 5px;
 }
 footer a {
-  color: #c7a17a;
+  color: #ed1c24;
 }
 
 h1:after {
@@ -51,16 +51,18 @@ font-family: 'opensans';}
 p{font-family: 'opensans';
 font-weight: 400;
 font-size: 30px;
+color: #000;
 }
 
 h3{
 font-size: 33px;
+    
 }
 
 .button {
   text-decoration: none;
-  color: #000;
-  background: #c7a17a;
+  color: #fff;
+  background: #ed1c24;
   padding: 10px 40px;
   display: inline-block;
 }
@@ -93,6 +95,7 @@ nav a{
     padding: 10px;
     border: 1px solid #000;
     display: block;
+    font-size: 25px;
 }
 .banner {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
@@ -142,3 +145,26 @@ padding: 15px;}
     fill: #FFFFFF;
 }
 
+h4 {font-size: 45px;
+font-family: 'opensans';
+color: #000;
+}
+.custom-shape-divider-top-1617724758 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1617724758 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1617724758 .shape-fill {
+    fill: #FFFFFF;
+}
