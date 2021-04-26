@@ -27,7 +27,9 @@ h1 {
   font-weight: 700;
     color: #fff;
 }
-
+.current a {
+  font-weight: bold;
+}
 footer {
   background: #acacac;
   color: #000;
@@ -96,6 +98,10 @@ nav a{
     border: 1px solid #000;
     display: block;
     font-size: 25px;
+    border-bottom-color: #fff; 
+}
+nav a:hover{
+border-bottom: white;
 }
 .banner {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
