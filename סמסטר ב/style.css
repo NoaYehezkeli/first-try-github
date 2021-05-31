@@ -1,4 +1,16 @@
 @font-face {
+  font-family: 'spacer';
+  src: url('fonts/spacer/400/fbspacer-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+    }
+@font-face {
+  font-family: 'spacer';
+  src: url('fonts/spacer/700/fbspacer-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+} 
+@font-face {
   font-family: 'opensans';
   src: url('fonts/opensans/400/opensanshebrew-regular.woff') format('woff');
   font-weight: 400;
@@ -6,13 +18,14 @@
 }
 @font-face {
   font-family: 'opensans';
-  src: url('fonts/opensans/700/opensanshebrew-bold.woff') format('woff');
+  src: url('') format('woff');
   font-weight: 700;
   font-style: normal;
 }
+
 body {
   margin: 0;
-  font-family: 'opensans', arial, sans-serif;
+  font-family: 'spacer', arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -23,15 +36,16 @@ img {
 }
 h1 {
   font-size: 80px;
-  font-family: 'opensans';
+  font-family: 'spacer';
   font-weight: 700;
     color: #fff;
 }
 .current a {
   font-weight: bold;
+    color: #c49473;
 }
 footer {
-  background: #fad2b7;
+  background: #e4d5ca;
   color: #000;
   text-align: center;
   padding: 5px;
@@ -47,12 +61,12 @@ h1:after {
   display: block;
   margin: auto;
 }
-h2 {font-size: 35px;
-font-family: 'opensans';}
+h2 {font-size: 30px;
+font-family: 'spacer';}
 
-p{font-family: 'opensans';
+p{font-family: 'spacer';
 font-weight: 400;
-font-size: 30px;
+font-size: 20px;
 color: #000;
 }
 
@@ -63,7 +77,7 @@ font-size: 33px;
 
 .button {
   text-decoration: none;
-  color: #fad2b7;
+  color: #c3a794;
   background: #ed1c24;
   padding: 10px 40px;
   display: inline-block;
@@ -153,8 +167,8 @@ padding: 15px;}
     fill: #FFFFFF;
 }
 
-h4 {font-size: 45px;
-font-family: 'opensans';
+h4 {font-size: 38px;
+font-family: 'spacer';
 color: #000;
 }
 
@@ -206,7 +220,7 @@ h2{font-size: 30px;
     text-align: center;}
 
 .button {
-    background: #fad2b7;
+    background: #c49473;
   color:#fff;
     text-decoration: none;
     border: 3px solid #fff;
