@@ -356,6 +356,7 @@ grid-template-columns: 2fr 1f;
 }
 .grid-2 img{
  display: block;
+    max-width: 200px;
 }
 .caption {
   font-size: 16px;
