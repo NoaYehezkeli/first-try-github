@@ -69,17 +69,23 @@ p{
 font-weight: 400;
 font-size: 20px;
 color: #000;
+margin-top: 0;
 }
 
 h3{
 font-size: 33px;
-    
+margin-bottom: 0;
+margin-top: 2px;
+
 }
 
 .button {
   text-decoration: none;
-  padding: 10px 40px;
+  padding: 12px 30px;
   display: inline-block;
+    border-radius: 36px;
+    font-weight: bold;
+    font-size: 21px;
 }
 .button:hover{
   color: #c3a794 ;
@@ -102,7 +108,8 @@ nav ul{
     padding: 0;
     display: flex;
     justify-content: space-around;
-    background: rgba(0,0,0,0.5);
+    max-width: 980px;
+    margin: auto;
     
 }
 nav a{
@@ -169,6 +176,7 @@ padding: 15px;}
 h4 {font-size: 38px;
 font-family: 'spacer';
 color: #000;
+margin-bottom: 0;
 }
 
 
@@ -222,11 +230,11 @@ h2{font-size: 30px;
   color:#fff;
     text-decoration: none;
     border: 3px solid #fff;
-    padding: 20px;
+    padding: 12px 30px;
     display: inline-block;
     margin-top: 10px;
     transition: 0.3s;
-    border-radius: 15px;
+    border-radius: 36px;
     margin-bottom: 10px;
     cursor: pointer;
 }
@@ -321,11 +329,10 @@ input, textarea {
   font: inherit;
   color: inherit;
   display: block;
-  border: 0;
   padding: 5px;
   width: 100%;
   box-sizing: border-box;
-  background: rgba(255,255,255,0.8);
+  
 }
 ::placeholder {
   color: #816241;
@@ -350,13 +357,13 @@ input:focus, textarea:focus {
 }
 
 .grid-2 {
-display: grid;
-grid-template-columns: 2fr 1f;
+grid-template-columns: 2fr 1fr;
     grid-gap:30px;
 }
 .grid-2 img{
  display: block;
-    max-width: 200px;
+    max-width: 980px;
+    margin: auto;
 }
 .caption {
   font-size: 16px;
@@ -373,4 +380,23 @@ grid-template-columns: 2fr 1f;
 }
 .img{
     position: relative;
+}
+nav {
+    background: rgba(0,0,0,0.5);
+}
+.gallery a {
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    display: block; 
+}
+.gallery p {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 5px;
 }
